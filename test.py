@@ -22,6 +22,6 @@ with open('Datasets/Dataset_1_test.csv', 'rb') as csvfile:
 X = np.array(feature_1)
 Y = np.array(output_1)
 
-plt.plot(X,Y,'ro')
+plt.plot(X,Y,'bx')
 plt.show
     
